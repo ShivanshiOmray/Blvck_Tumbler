@@ -1,0 +1,142 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #131313 0%,
+    #1c1c1c 9%,
+    #2b2b2b 24%,
+    #111111e2 40%,
+    #000000e3 49%,
+    #2c2c2c 50%,
+    #474747 61%,
+    #666666 75%,
+    #595959 88%,
+    #4c4c4c 100%
+  );
+}
+
+#nav {
+  /* background-color: blue; */
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+span {
+  margin: 0px 20px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0%;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+#orange {
+  background-color: #fda600;
+  height: 20px;
+  width: 150px;
+}
+
+#dash {
+  position: absolute;
+  left: 7%;
+}
+
+#left {
+  /* position: relative; */
+  background-color: rgb(121, 116, 116);
+  height: 30%;
+  width: 25%;
+  position: absolute;
+  bottom: 20%;
+  left: 0%;
+}
+
+#text {
+  color: white;
+  position: absolute;
+  left: 5%;
+  bottom: 30%;
+}
+
+#right {
+  /* position: relative; */
+  background-color: #2d3037;
+  height: 30%;
+  width: 25%;
+  position: absolute;
+  bottom: 20%;
+  right: 0%;
+}
+
+#content {
+  color: white;
+  position: absolute;
+  right: 17%;
+  bottom: 30%;
+}
+
+#arrow {
+  color: white;
+  position: absolute;
+  right: 1%;
+  top: 40%;
+  font-size: 20px;
+}
+
+#play {
+  color: #fda600;
+  position: absolute;
+  right: 3%;
+  top: 62%;
+  font-size: 50px;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  top: 13%;
+  left: 15%;
+  font-size: 80px;
+}
+
+#backheading {
+  /* background-color: aqua; */
+  position: absolute;
+  top: -50px;
+  left: 46%;
+  font-size: 200px;
+  color: #23232374;
+  line-height: 80%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#center img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+}
